@@ -13,8 +13,9 @@
 	<input type="button" onclick="addition()" value="Addition">
 	<script>
 		function addition(){
-			document.getElementById("result").value = parseInt(document.getElementById("firstfield").value) + parseInt(document.getElementById("secondfield").value);
+			document.getElementById("result").value = parseInt(document.getElementById("firstfield").value) + parseFloat(document.getElementById("secondfield").value);
 		}
+
 	</script>
 </body>
 </html>
